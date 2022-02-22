@@ -1,0 +1,12 @@
+<action path="/submitDetailForm"
+        type="mybank.example.CustomerAction"
+        name="CustomerForm"
+        scope="request"
+        validate="true"
+        input="CustomerDetailForm.jsp">
+    <forward name="success"
+             path="ThankYou.jsp"
+             redirect="true" />
+     <forward name="failure"
+              path="Failure.jsp" />
+</action>
