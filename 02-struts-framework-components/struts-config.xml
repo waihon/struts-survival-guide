@@ -23,10 +23,10 @@
             validate="true"
             input="/CustomerDetailForm.jsp">
       <forward name="success"
-               path="ThankYou.jsp"
+               path="/ThankYou.jsp"
                redirect="true" />
       <forward name="failure"
-               path="Failure.jsp" />
+               path="/Failure.jsp" />
     </action>
     <action path="/logoff"
             parameter="/logoff.jsp"
